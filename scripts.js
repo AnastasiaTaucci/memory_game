@@ -134,10 +134,8 @@ document.getElementById("chosen-color").addEventListener('change', changeColor);
 
 
 // Restart button event listener
-restartBtn.addEventListener('click', () => {
-  initializeGame();
-});
+restartBtn.addEventListener('click', initializeGame);
 
 
 // Initialize the game on page load
-window.addEventListener('load', initializeGame());
+window.addEventListener('load', initializeGame);
